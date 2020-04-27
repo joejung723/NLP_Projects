@@ -80,11 +80,8 @@ def main():
 
         # finds cosine similarity between sentences and puts the comparing sentences as key and its cosine similarity as value
         for i in range(len(tfidf_matrix)):
-
             l1 = tfidf_matrix[i]
-
             for j in range(len(tfidf_matrix)):
-
                 if j < i or j == i:
                     continue
 
